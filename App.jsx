@@ -7,6 +7,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Hello bang>World</Hello>
+      <Hello style={{ fontSize: 16 }}>Small World</Hello>
       <Text>your app!</Text>
       <StatusBar style="auto" />
     </View>
