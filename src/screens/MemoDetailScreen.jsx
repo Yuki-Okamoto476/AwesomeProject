@@ -1,8 +1,10 @@
-import React from "react";
-import { View, ScrollView, Text, StyleSheet } from "react-native";
+import React from 'react';
+import {
+  View, ScrollView, Text, StyleSheet,
+} from 'react-native';
 
-import AppBar from "../components/AppBar";
-import CircleButton from "../components/CircleButton";
+import AppBar from '../components/AppBar';
+import CircleButton from '../components/CircleButton';
 
 export default function MemoDetailScreen() {
   return (
@@ -18,7 +20,7 @@ export default function MemoDetailScreen() {
           本文用なので使い方を間違えると不自然に見えることもありますので要注意。
         </Text>
       </ScrollView>
-      <CircleButton name="edit-2" style={{ top: 160, bottom: 'auto' }} />
+      <CircleButton name="pencil" style={{ top: 160, bottom: 'auto' }} />
     </View>
   );
 }
@@ -26,23 +28,23 @@ export default function MemoDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: '#fff',
   },
   memoHeader: {
-    backgroundColor: "#467fd3",
+    backgroundColor: '#467fd3',
     height: 96,
-    justifyContent: "center",
+    justifyContent: 'center',
     paddingVertical: 24,
     paddingHorizontal: 19,
   },
   memoTitle: {
-    color: "#fff",
+    color: '#fff',
     fontSize: 20,
     lineHeight: 32,
-    fontWeight: "bold",
+    fontWeight: 'bold',
   },
   memoDate: {
-    color: "#fff",
+    color: '#fff',
     fontSize: 12,
     lineHeight: 16,
   },
