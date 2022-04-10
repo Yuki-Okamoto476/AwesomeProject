@@ -6,7 +6,7 @@ import {
 import AppBar from '../components/AppBar';
 import CircleButton from '../components/CircleButton';
 
-export default function MemoEditScreen() {
+export default function MemoCreateScreen() {
   return (
     <KeyboardAvoidingView style={styles.container} behavior="height">
       <View style={styles.container}>
