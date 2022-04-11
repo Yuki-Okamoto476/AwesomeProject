@@ -1,5 +1,5 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
 export default function AppBar() {
   return (
@@ -14,25 +14,25 @@ export default function AppBar() {
 
 const styles = StyleSheet.create({
   appBar: {
-    width: "100%",
+    width: '100%',
     height: 104,
-    backgroundColor: "#467fd3",
-    justifyContent: "flex-end",
+    backgroundColor: '#467fd3',
+    justifyContent: 'flex-end',
   },
   appBarInner: {
-    alignItems: "center",
+    alignItems: 'center',
   },
   appBarTitle: {
     marginBottom: 8,
     fontSize: 22,
-    fontWeight: "bold",
+    fontWeight: 'bold',
     lineHeight: 32,
-    color: "#fff",
+    color: '#fff',
   },
   appBarRight: {
-    position: "absolute",
+    position: 'absolute',
     right: 19,
     bottom: 16,
-    color: "rgba(255, 255, 255, 0.8)",
+    color: 'rgba(255, 255, 255, 0.8)',
   },
 });
