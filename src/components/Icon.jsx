@@ -22,5 +22,5 @@ Icon.propTypes = {
 
 Icon.defaultProps = {
   size: 24,
-  color: '#000',
+  color: '#000000',
 };
